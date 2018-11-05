@@ -40,28 +40,6 @@
   </entry>
   
   <entry>
-    <title>test</title>
-    <link href="http://yoursite.com/2018/11/05/test/"/>
-    <id>http://yoursite.com/2018/11/05/test/</id>
-    <published>2018-11-05T09:27:08.000Z</published>
-    <updated>2018-11-05T09:27:39.801Z</updated>
-    
-    <content type="html"><![CDATA[<p>hello  world</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;hello  world&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Hello World</title>
     <link href="http://yoursite.com/2018/11/05/hello-world/"/>
     <id>http://yoursite.com/2018/11/05/hello-world/</id>
