@@ -73,6 +73,8 @@
 
 
 
+  
+
 
   <link rel="alternate" href="/atom.xml" title="态度" type="application/atom+xml">
 
@@ -81,16 +83,17 @@
 
 
 
-<meta name="description" content="记笔记使人成长，好记性不如烂笔头。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="态度">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="Centos-7 部署openstack-pike步骤详解加入老张：作者老张关注老张微信公众号： 有疑问单独联系老张： 一、    环境准备：控制节点与计算节点都做环境部署1.1   两台虚拟机两台centos-7虚拟机：一台控制节点（controller）：  4G内存、1核、双网卡一台计算节点（computer）：  4G内存、1核、双网卡、修改/etc/hosts配置文件，进行修改主机名。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Centos-7搭建openstack、">
+<meta property="og:url" content="http://yoursite.com/2018/11/05/Centos-7搭建openstack、/index.html">
 <meta property="og:site_name" content="态度">
-<meta property="og:description" content="记笔记使人成长，好记性不如烂笔头。">
+<meta property="og:description" content="Centos-7 部署openstack-pike步骤详解加入老张：作者老张关注老张微信公众号： 有疑问单独联系老张： 一、    环境准备：控制节点与计算节点都做环境部署1.1   两台虚拟机两台centos-7虚拟机：一台控制节点（controller）：  4G内存、1核、双网卡一台计算节点（computer）：  4G内存、1核、双网卡、修改/etc/hosts配置文件，进行修改主机名。">
 <meta property="og:locale" content="zh_Hans">
+<meta property="og:updated_time" content="2018-11-05T12:13:04.845Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="态度">
-<meta name="twitter:description" content="记笔记使人成长，好记性不如烂笔头。">
+<meta name="twitter:title" content="Centos-7搭建openstack、">
+<meta name="twitter:description" content="Centos-7 部署openstack-pike步骤详解加入老张：作者老张关注老张微信公众号： 有疑问单独联系老张： 一、    环境准备：控制节点与计算节点都做环境部署1.1   两台虚拟机两台centos-7虚拟机：一台控制节点（controller）：  4G内存、1核、双网卡一台计算节点（computer）：  4G内存、1核、双网卡、修改/etc/hosts配置文件，进行修改主机名。">
 
 
 
@@ -120,13 +123,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/">
+  <link rel="canonical" href="http://yoursite.com/2018/11/05/Centos-7搭建openstack、/">
 
 
 
 
 
-  <title>态度</title>
+  <title>Centos-7搭建openstack、 | 态度</title>
   
 
 
@@ -145,8 +148,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope="" itemtype="http://schema.org/WPHeader">
@@ -219,9 +221,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -251,9 +253,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/11/05/Centos-7搭建openstack、/" itemprop="url">Centos-7搭建openstack、</a></h1>
+          <h1 class="post-title" itemprop="name headline">Centos-7搭建openstack、</h1>
         
 
         <div class="post-meta">
@@ -303,9 +303,7 @@
       
 
       
-        
-          
-            <p>Centos-7 部署openstack-pike步骤详解<br>加入老张：<br>作者老张<br>关注老张微信公众号：</p>
+        <p>Centos-7 部署openstack-pike步骤详解<br>加入老张：<br>作者老张<br>关注老张微信公众号：</p>
 <p>有疑问单独联系老张：</p>
 <p>一、    环境准备：<br>控制节点与计算节点都做环境部署<br>1.1   两台虚拟机<br>两台centos-7虚拟机：<br>一台控制节点（controller）：  4G内存、1核、双网卡<br>一台计算节点（computer）：  4G内存、1核、双网卡、<br>修改/etc/hosts配置文件，进行修改主机名。</p>
 <p>#173.168.6.15    controller</p>
@@ -550,8 +548,6 @@
 <p>至此 openstack  dashboard 服务搭建完成，也就意味着openstack-pike 服务完整搭建成功。</p>
 <p>总结：<br>   通过本次的OpenStack搭建使我收获了很多的知识，同时让我弄懂了OpenStack的架构原理，本次的搭建是一个不断学习党的过程，让我学会了搭建服务遇到问题要耐心，要学会通过查看日志排查错误。<br>特别注意：在执行与数据库相关联的服务时，如果报错就先同步一下数据在做操作，同步完数据库如果报错提示password失踪（Missing value auth-url required for auth plugin password）就重新设置一下路径，这里用 .  admin-openrc。做完以上操作基本上就会没有多少问题。</p>
 
-          
-        
       
     </div>
     
@@ -568,142 +564,28 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/05/pxe服务器无人值守安装系统搭建/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="态度">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="态度">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/11/05/pxe服务器无人值守安装系统搭建/" itemprop="url">pxe服务器无人值守安装系统搭建</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-05T20:07:08+08:00">
-                2018-11-05
-              </time>
+              <a href="/2018/11/05/pxe服务器无人值守安装系统搭建/" rel="next" title="pxe服务器无人值守安装系统搭建">
+                <i class="fa fa-chevron-left"></i> pxe服务器无人值守安装系统搭建
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>pxe服务搭建<br>第一步：关闭防火墙。<br>二、配置ip地址，重启网络服务。如果重启失败就进入<br>vim /etc/sysconfig/network-script/ifcfg-eth0<br>把配文件里面的<br>onboot=no改成 onboot=yes<br>必须安装的服务<br>yum  -install syslinux   tftp-<em>  xinetd  dhcp-</em> -y</p>
-<p>然后修改dhcp服务的配置文件；<br>在配置文件末行模式下输入： : r +要打开文件的路径<br>在配置文件里配好dhcp地址后，外加两行<br>filename  “pxelinux.0”<br>next-server   192.168.1.100<br>chkconfig   dhcpd  on  配置dhcp服务开机自起。</p>
-<p>然后配置tftp的配置文件<br>vim /etc/xinted.d/tftp<br>把里面的disable这一行参数改成no</p>
-<p>然后去找linux.iso镜像文件，路径在  cd /dvd/isolinux</p>
-<p>然后把isolinux的文件都拷贝到tftp目录中<br> cp /dvd/isolinux/*   /var/lib/tftpboot/    </p>
-<p>然后再去找pxelinux.0引导文件<br> find /  -name  pxelinux.0<br>找到后将pxelinux.0引导文件拷贝到tftp目录中<br>cp /usr/share/syslinux/pxelinux.0   /var/lib/tftpboot/</p>
-<p>然后创建一个目录：<br>mkdir /var/lib/tftpboot/pxelinux.cfg</p>
-<p>然后将开机引导文件isolinux.cfg拷贝到这个文件里来，并且将文件夹改名为default。<br>cp /var/lib/tftpboot/isolinux.cfg   /var/lib/tftpboot/pxelinux.cfg/default<br>然后重启服务，再设置开机自起。</p>
-<p>配置http服务：</p>
-<p>然后创建文件<br>mkdir  /var/www/html/dvd<br>mount /dev/sr0  /var/www/html/dvd/<br>然后重启http服务，service  httpd restart<br>然后设置开机自起:  chkconfig  httpd on</p>
-<p>上面一系列步骤操作完成，然后再新建一个虚拟机在新建的虚拟机电源选项卡中选择<br>“打开电源时进入固件”进入之后找到Boot 将引导方式改成network网络寻址。</p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </div>
@@ -713,276 +595,11 @@
   </article>
 
 
-    
-      
 
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/05/ISCSI磁盘共享/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="态度">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="态度">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/11/05/ISCSI磁盘共享/" itemprop="url">ISCSI磁盘共享</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-05T19:31:36+08:00">
-                2018-11-05
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>ISCSI服务配置与管理<br>服务器：<br>1、    安装iscsi服务<br>Yum   install   iscsi*   -y<br>Yum   install   targetcli   -y<br>2、    重启服务<br>Systemctl    restart  iscsi</p>
-<p>3、    防火墙允许通过。<br>Firewall-cmd    –permanent  –add-port=3260/tcp<br>Firewall-cmd    –reload</p>
-<p>4、    创建共享分区。<br>Fdisk   /dev/sdb<em>     m   n   p   +6G  w<br>分完区后输入partx   /dev/sdb</em>   同步磁盘分区。</p>
-<p>5、    进入交换界面。<br>在终端输入 targetcli  直接进入交换界面。</p>
-<p>6、    修改iqn号</p>
-<p>7、    在交换界面配置文件 。<br>先在机交换界面创建共享。</p>
-<p>再创建iqn号<br>创建lun，如果不设置lun的序号，默认为1.</p>
-<p>设置好服务器地址和对应服务的端口号。</p>
-<p>设置acls列表。把客户机的iqn设置上。</p>
-<p>在交互界面做完配置之后，退出交互界面，进入全局界面，重启iscsi服务。<br>Systemctl   restart  iscsi</p>
-<p>客户机：<br>1、    安装targetcli服务。<br>Yum   install   targetcli*   -y</p>
-<p>2、    然后在终端输入man  iscsiadm 查看iscsi手册。<br>man  iscsiadmin </p>
-<p>3、    查看命令手册之后能看到帮助，复制两条如下命令到终端命令行。<br>iscsiadm –mode discoverydb –type sendtargets –portal 192.168.1.10(这里是自己服务器的地址)–discover</p>
-<p>iscsiadm –mode node –targetname iqn.2001-05.com.doe:tes(这里是服务器的iqn号)–portal 192.168.1.1:3260(这里是服务器的地址) –login</p>
-<p>4、    之后输入fdisk  -l 查看一下分区。</p>
-<p>5、    之后再进行格式化，</p>
-<p>mkfs  -t  ext4  /dev/sdb*</p>
-<p>然后挂载磁盘<br>mount     /dev/sdb1  /1</p>
-<p>查看挂载情况<br>df  -hT<br>完成配置。</p>
-
-          
-        
+    <div class="post-spread">
       
     </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
   </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/11/05/hello-world/">
-
-    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="态度">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="态度">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/11/05/hello-world/" itemprop="url">Hello World</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2018-11-05T15:31:14+08:00">
-                2018-11-05
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-  </section>
-
-  
 
 
           </div>
@@ -990,6 +607,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -1010,8 +631,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -1069,6 +699,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-enable-chronyd-service"><span class="nav-number">1.</span> <span class="nav-text">systemctl enable chronyd.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-start-chronyd-service"><span class="nav-number">2.</span> <span class="nav-text">systemctl start chronyd.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#yum-install-mariadb-mariadb-server-python2-PyMySQL"><span class="nav-number">3.</span> <span class="nav-text">yum install mariadb mariadb-server python2-PyMySQL</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-enable-mariadb-service"><span class="nav-number">4.</span> <span class="nav-text">systemctl enable mariadb.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-start-mariadb-service"><span class="nav-number">5.</span> <span class="nav-text">systemctl start mariadb.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#mysql-secure-installation"><span class="nav-number">6.</span> <span class="nav-text">mysql_secure_installation</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#yum-install-rabbitmq-server"><span class="nav-number">7.</span> <span class="nav-text">yum install rabbitmq-server</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-enable-rabbitmq-server-service"><span class="nav-number">8.</span> <span class="nav-text">systemctl enable  rabbitmq-server.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-start-rabbitmq-server-service"><span class="nav-number">9.</span> <span class="nav-text">systemctl start  rabbitmq-server.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#rabbitmqctl-add-user-openstack-RABBIT-PASS"><span class="nav-number">10.</span> <span class="nav-text">rabbitmqctl add_user openstack RABBIT_PASS</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#rabbitmqctl-set-permissions-openstack-“-“-“-“-“-”"><span class="nav-number">11.</span> <span class="nav-text">rabbitmqctl set_permissions openstack “.“ “.“ “.*”</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#yum-install-memcached-python-memcached"><span class="nav-number">12.</span> <span class="nav-text">yum install memcached python-memcached</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-enable-memcached-service"><span class="nav-number">13.</span> <span class="nav-text">systemctl enable memcached.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-start-memcached-service"><span class="nav-number">14.</span> <span class="nav-text">systemctl start memcached.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#yum-install-etcd"><span class="nav-number">15.</span> <span class="nav-text">yum install etcd</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-enable-etcd"><span class="nav-number">16.</span> <span class="nav-text">systemctl enable etcd</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-start-etcd"><span class="nav-number">17.</span> <span class="nav-text">systemctl start etcd</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#yum-install-openstack-keystone-httpd-mod-wsgi"><span class="nav-number">18.</span> <span class="nav-text">yum install openstack-keystone httpd mod_wsgi</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…"><span class="nav-number">19.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-1"><span class="nav-number">20.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#su-s-bin-sh-c-“keystone-manage-db-sync”-keystone"><span class="nav-number">21.</span> <span class="nav-text">su -s /bin/sh -c “keystone-manage db_sync” keystone</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#keystone-manage-fernet-setup-–keystone-user-keystone-–keystone-group-keystone"><span class="nav-number">22.</span> <span class="nav-text">keystone-manage fernet_setup –keystone-user keystone –keystone-group keystone</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#keystone-manage-credential-setup-–keystone-user-keystone-–keystone-group-keystone"><span class="nav-number">23.</span> <span class="nav-text">keystone-manage credential_setup –keystone-user keystone –keystone-group keystone</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#keystone-manage-bootstrap-–bootstrap-password-ADMIN-PASS"><span class="nav-number">24.</span> <span class="nav-text">keystone-manage bootstrap –bootstrap-password ADMIN_PASS \</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#ln-s-usr-share-keystone-wsgi-keystone-conf-etc-httpd-conf-d"><span class="nav-number">25.</span> <span class="nav-text">ln -s /usr/share/keystone/wsgi-keystone.conf /etc/httpd/conf.d/</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-enable-httpd-service"><span class="nav-number">26.</span> <span class="nav-text">systemctl enable httpd.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-start-httpd-service"><span class="nav-number">27.</span> <span class="nav-text">systemctl start httpd.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#yum-install-openstack-glance"><span class="nav-number">28.</span> <span class="nav-text">yum install openstack-glance</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-2"><span class="nav-number">29.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-3"><span class="nav-number">30.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-4"><span class="nav-number">31.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-5"><span class="nav-number">32.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-6"><span class="nav-number">33.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-7"><span class="nav-number">34.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-8"><span class="nav-number">35.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#su-s-bin-sh-c-“glance-manage-db-sync”-glance"><span class="nav-number">36.</span> <span class="nav-text">su -s /bin/sh -c “glance-manage db_sync” glance</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-enable-openstack-glance-api-service"><span class="nav-number">37.</span> <span class="nav-text">systemctl enable openstack-glance-api.service \</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-start-openstack-glance-api-service"><span class="nav-number">38.</span> <span class="nav-text">systemctl start openstack-glance-api.service \</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#yum-install-openstack-nova-api-openstack-nova-conductor"><span class="nav-number">39.</span> <span class="nav-text">yum install openstack-nova-api openstack-nova-conductor \</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-9"><span class="nav-number">40.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-10"><span class="nav-number">41.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-11"><span class="nav-number">42.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-12"><span class="nav-number">43.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-13"><span class="nav-number">44.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-14"><span class="nav-number">45.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-15"><span class="nav-number">46.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-16"><span class="nav-number">47.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-17"><span class="nav-number">48.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-18"><span class="nav-number">49.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-19"><span class="nav-number">50.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-20"><span class="nav-number">51.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-restart-httpd"><span class="nav-number">52.</span> <span class="nav-text">systemctl restart httpd</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#su-s-bin-sh-c-“nova-manage-api-db-sync”-nova"><span class="nav-number">53.</span> <span class="nav-text">su -s /bin/sh -c “nova-manage api_db sync” nova</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#su-s-bin-sh-c-“nova-manage-cell-v2-map-cell0”-nova"><span class="nav-number">54.</span> <span class="nav-text">su -s /bin/sh -c “nova-manage cell_v2 map_cell0” nova</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#su-s-bin-sh-c-“nova-manage-cell-v2-create-cell-–name-cell1-–verbose”-nova"><span class="nav-number">55.</span> <span class="nav-text">su -s /bin/sh -c “nova-manage cell_v2 create_cell –name=cell1 –verbose” nova</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#su-s-bin-sh-c-“nova-manage-db-sync”-nova"><span class="nav-number">56.</span> <span class="nav-text">su -s /bin/sh -c “nova-manage db sync” nova</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#nova-manage-cell-v2-list-cells"><span class="nav-number">57.</span> <span class="nav-text">nova-manage cell_v2 list_cells</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-enable-openstack-nova-api-service"><span class="nav-number">58.</span> <span class="nav-text">systemctl enable openstack-nova-api.service \</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-start-openstack-nova-api-service"><span class="nav-number">59.</span> <span class="nav-text">systemctl start openstack-nova-api.service \</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#yum-install-openstack-nova-compute"><span class="nav-number">60.</span> <span class="nav-text">yum install openstack-nova-compute</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-21"><span class="nav-number">61.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-22"><span class="nav-number">62.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-23"><span class="nav-number">63.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-24"><span class="nav-number">64.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-25"><span class="nav-number">65.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-26"><span class="nav-number">66.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-27"><span class="nav-number">67.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-28"><span class="nav-number">68.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-29"><span class="nav-number">69.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-30"><span class="nav-number">70.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-31"><span class="nav-number">71.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-enable-libvirtd-service-openstack-nova-compute-service"><span class="nav-number">72.</span> <span class="nav-text">systemctl enable libvirtd.service openstack-nova-compute.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-start-libvirtd-service-openstack-nova-compute-service"><span class="nav-number">73.</span> <span class="nav-text">systemctl start libvirtd.service openstack-nova-compute.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#su-s-bin-sh-c-“nova-manage-cell-v2-discover-hosts-–verbose”-nova"><span class="nav-number">74.</span> <span class="nav-text">su -s /bin/sh -c “nova-manage cell_v2 discover_hosts –verbose” nova</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#nova-status-upgrade-check"><span class="nav-number">75.</span> <span class="nav-text">nova-status upgrade check</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#controller"><span class="nav-number">76.</span> <span class="nav-text">controller</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#compute1"><span class="nav-number">77.</span> <span class="nav-text">compute1</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#block1"><span class="nav-number">78.</span> <span class="nav-text">block1</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#object1"><span class="nav-number">79.</span> <span class="nav-text">object1</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#object2"><span class="nav-number">80.</span> <span class="nav-text">object2</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#yum-install-openstack-neutron-openstack-neutron-ml2"><span class="nav-number">81.</span> <span class="nav-text">yum install openstack-neutron openstack-neutron-ml2 \</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-32"><span class="nav-number">82.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-33"><span class="nav-number">83.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-34"><span class="nav-number">84.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-35"><span class="nav-number">85.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-36"><span class="nav-number">86.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-37"><span class="nav-number">87.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-38"><span class="nav-number">88.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-39"><span class="nav-number">89.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-40"><span class="nav-number">90.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-41"><span class="nav-number">91.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-42"><span class="nav-number">92.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-43"><span class="nav-number">93.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-44"><span class="nav-number">94.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-45"><span class="nav-number">95.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-46"><span class="nav-number">96.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-47"><span class="nav-number">97.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#yum-install-openstack-neutron-openstack-neutron-ml2-1"><span class="nav-number">98.</span> <span class="nav-text">yum install openstack-neutron openstack-neutron-ml2 \</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-48"><span class="nav-number">99.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-49"><span class="nav-number">100.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-50"><span class="nav-number">101.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-51"><span class="nav-number">102.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-52"><span class="nav-number">103.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-53"><span class="nav-number">104.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-54"><span class="nav-number">105.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-55"><span class="nav-number">106.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-56"><span class="nav-number">107.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-57"><span class="nav-number">108.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-58"><span class="nav-number">109.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-59"><span class="nav-number">110.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-60"><span class="nav-number">111.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-61"><span class="nav-number">112.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-62"><span class="nav-number">113.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-63"><span class="nav-number">114.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-64"><span class="nav-number">115.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-65"><span class="nav-number">116.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-66"><span class="nav-number">117.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-67"><span class="nav-number">118.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#ln-s-etc-neutron-plugins-ml2-ml2-conf-ini-etc-neutron-plugin-ini"><span class="nav-number">119.</span> <span class="nav-text">ln -s /etc/neutron/plugins/ml2/ml2_conf.ini /etc/neutron/plugin.ini</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#su-s-bin-sh-c-“neutron-db-manage-–config-file-etc-neutron-neutron-conf"><span class="nav-number">120.</span> <span class="nav-text">su -s /bin/sh -c “neutron-db-manage –config-file /etc/neutron/neutron.conf \</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-restart-openstack-nova-api-service"><span class="nav-number">121.</span> <span class="nav-text">systemctl restart openstack-nova-api.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-enable-neutron-server-service"><span class="nav-number">122.</span> <span class="nav-text">systemctl enable neutron-server.service \</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-start-neutron-server-service"><span class="nav-number">123.</span> <span class="nav-text">systemctl start neutron-server.service \</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-enable-neutron-l3-agent-service"><span class="nav-number">124.</span> <span class="nav-text">systemctl enable neutron-l3-agent.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-start-neutron-l3-agent-service"><span class="nav-number">125.</span> <span class="nav-text">systemctl start neutron-l3-agent.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#yum-install-openstack-neutron-linuxbridge-ebtables-ipset"><span class="nav-number">126.</span> <span class="nav-text">yum install openstack-neutron-linuxbridge ebtables ipset</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-68"><span class="nav-number">127.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-69"><span class="nav-number">128.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-70"><span class="nav-number">129.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-71"><span class="nav-number">130.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-72"><span class="nav-number">131.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#…-73"><span class="nav-number">132.</span> <span class="nav-text">…</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-restart-openstack-nova-compute-service"><span class="nav-number">133.</span> <span class="nav-text">systemctl restart openstack-nova-compute.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-enable-neutron-linuxbridge-agent-service"><span class="nav-number">134.</span> <span class="nav-text">systemctl enable neutron-linuxbridge-agent.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-start-neutron-linuxbridge-agent-service"><span class="nav-number">135.</span> <span class="nav-text">systemctl start neutron-linuxbridge-agent.service</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#yum-install-openstack-dashboard"><span class="nav-number">136.</span> <span class="nav-text">yum install openstack-dashboard</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#systemctl-restart-httpd-service-memcached-service"><span class="nav-number">137.</span> <span class="nav-text">systemctl restart httpd.service memcached.service</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1202,6 +848,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
